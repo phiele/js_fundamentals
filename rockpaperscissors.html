@@ -19,7 +19,7 @@
             //define conditions for returning ‘Rock’, ‘Paper’ or ‘Scissors’
             if (randNum >= 0.666) {
                 return result = 'Rock';
-            } else if (randNum <= 0.333) {
+            } else if (randNum < 0.333) {
                 return result = 'Paper';
             } else {
                 return result = 'Scissors';
@@ -56,6 +56,7 @@
 
         }
 
+        /*
         //define function to play a 5 round game
         function game() {
             //initialize final message and winning rounds
@@ -89,6 +90,7 @@
         }
 
         game()
+        */
         /*
         const playerSelection = "rock";
         const computerSelection = computerPlay();   
